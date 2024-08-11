@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --background-color: #110f10;
+  --header-color: #0e0c12;
+  --light-terciary-color: #24294c;
+  --dark-secondary-color: #8b8e8e80;
+}
+
+body {
+	padding: 0;
+	padding-bottom: 50px;
+	margin: 0;
+	font-size: 16px;
+	background-color: var(--background-color);
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-size: 13px;
+}
+
+.chevron {
+    transform: translateY(-60%);
+    transition: color 0.3s ease; 
+    color: var(--dark-secondary-color);
+    width: 12px;
+    height: 12px;
+}
+
+.chevron:hover {
+    cursor:pointer;
+    color: #ffffff;
+}
